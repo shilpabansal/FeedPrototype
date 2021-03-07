@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NXz-Eg-haf">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -12,7 +12,7 @@
             <objects>
                 <tableViewController id="2gy-33-BXI" customClass="FeedViewController" customModule="FeedPrototype" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ceh-HJ-BeM">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
@@ -27,10 +27,10 @@
                                             <rect key="frame" x="20" y="17" width="374" height="546"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="BxF-AS-NbO" userLabel="Location Container">
-                                                    <rect key="frame" x="0.0" y="0.0" width="374" height="37"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="374" height="37.333333333333336"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5S0-y4-JLX" userLabel="Pin Container">
-                                                            <rect key="frame" x="0.0" y="0.0" width="10" height="37"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="10" height="37.333333333333336"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pin" translatesAutoresizingMaskIntoConstraints="NO" id="au2-eJ-x4x">
                                                                     <rect key="frame" x="0.0" y="0.0" width="10" height="14"/>
@@ -57,7 +57,7 @@ Location</string>
                                                     </subviews>
                                                 </stackView>
                                                 <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8yt-4p-yED" userLabel="Image Container">
-                                                    <rect key="frame" x="0.0" y="47" width="374" height="374"/>
+                                                    <rect key="frame" x="0.0" y="47.333333333333314" width="374" height="374"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="djA-r8-00y">
                                                             <rect key="frame" x="0.0" y="0.0" width="374" height="374"/>
@@ -78,7 +78,7 @@ Location</string>
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eEq-3f-ZKE">
-                                                    <rect key="frame" x="0.0" y="431" width="369" height="115"/>
+                                                    <rect key="frame" x="0.0" y="431.33333333333331" width="369" height="114.66666666666669"/>
                                                     <string key="text">Description
 Description
 Description
@@ -130,7 +130,7 @@ Description</string>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NXz-Eg-haf" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZAW-cX-Zks">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -144,7 +144,7 @@ Description</string>
         </scene>
     </scenes>
     <resources>
-        <image name="pin" width="10" height="14"/>
+        <image name="pin" width="10" height="14.333333015441895"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
